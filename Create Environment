@@ -1,0 +1,11 @@
+conda create --name test python=3.6 anaconda
+#conda create : 建立虛擬環境
+#--name test : 環境名稱設定為test
+#python=3.6 : python的版本設定為3.6 
+
+#Remove Environment
+conda remove -n test -all 
+
+#Tesorflow / Keras Installation
+conda install tensorflow
+conda install keras 
